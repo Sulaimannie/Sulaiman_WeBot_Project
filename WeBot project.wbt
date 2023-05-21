@@ -1,0 +1,121 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/elisa/protos/Elisa3.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/samples/curriculum/protos/Obstacle.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/toys/protos/RubberDuck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/samples/contests/ratslife/protos/e-puck/E-puckFlag.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.05218589276423782 0.9962897388641185 -0.0684352893649607 1.7555891822426621
+  position 0.12947891032909337 0.4028533215610746 2.2368421982451254
+  follow "Chunky-Munky"
+}
+TexturedBackground {
+  luminosity 5
+  skyColor [
+    0.5 0 0
+  ]
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0.01 0
+  rotation 0 0.707103890575549 0.7071096717857295 0
+  floorTileSize 2 2
+}
+DEF EPUCK_FLAG E-puckFlag {
+}
+Wall {
+  translation -0.41 -0.0300001 0
+  rotation 0 0 1 1.5708
+  name "wall(4)"
+  size 0.05 0.2 0.05
+}
+Wall {
+  translation 0.42 -0.029997 0
+  rotation 0 0 1 1.5708
+  name "wall(5)"
+  size 0.05 0.2 0.05
+}
+Wall {
+  translation -0.15 -0.4 0
+  size 0.05 0.2 0.05
+}
+Wall {
+  translation 0.19 -0.4 0
+  name "wall(1)"
+  size 0.05 0.2 0.05
+}
+Wall {
+  translation -0.15 0.4 0
+  name "wall(2)"
+  size 0.05 0.2 0.05
+}
+Wall {
+  translation 0.19 0.4 0
+  name "wall(3)"
+  size 0.05 0.2 0.05
+}
+RubberDuck {
+  translation -0.4514910893885564 -0.43562335013619075 0.02043801820486575
+  rotation -1.333357502837508e-15 3.892081225429447e-16 1 0.9012364114790462
+}
+RubberDuck {
+  translation -0.4336942453982587 0.43769278231212516 0.02043801820486577
+  rotation 2.6048271229213568e-18 6.692764885787138e-17 -1 1.14930203638055
+  name "rubber duck(2)"
+}
+RubberDuck {
+  translation 0.4141862025193856 0.42087504145263194 0.020438018204865772
+  rotation -1.843101492707848e-18 -2.813625122922377e-17 1 -2.4298552874853043
+  name "rubber duck(3)"
+}
+RubberDuck {
+  translation 0.4323852862726545 -0.40785407548815367 0.020438018204875147
+  rotation -8.915847384773278e-18 -8.070898230944443e-18 1 2.250854437664451
+  name "rubber duck(1)"
+}
+Obstacle {
+  translation -0.01 0.25 0.025
+}
+Obstacle {
+  translation 0.31 0.25 0.025
+  name "obstacle(5)"
+}
+Obstacle {
+  translation 0.01 -0.29 0.025
+  name "obstacle(1)"
+}
+Obstacle {
+  translation 0.32 -0.29 0.025
+  name "obstacle(4)"
+}
+Obstacle {
+  translation -0.35 0.24 0.025
+  name "obstacle(2)"
+}
+Obstacle {
+  translation -0.34 -0.3 0.025
+  name "obstacle(3)"
+}
+Elisa3 {
+  hidden position_0_0 470.53895458698366
+  hidden position_0_1 474.71876829785685
+  hidden linearVelocity_0 0.0019653753563412895 0.062176790117023976 3.5039582080634317e-07
+  hidden angularVelocity_0 -6.927359129220497e-06 -2.2505076783937856e-05 -0.32742090490988196
+  hidden rotation_2 0 -1 0 1.7455932639677956
+  hidden linearVelocity_2 0.0023273834517938273 0.068717142914425 -9.195702796561507e-08
+  hidden angularVelocity_2 -15.23461154184507 0.5041289442706895 -0.35884772024170863
+  hidden rotation_3 0 -1 0 4.084770760336259
+  hidden linearVelocity_3 0.0018552863471648084 0.05562717709279385 7.93156136081877e-07
+  hidden angularVelocity_3 -12.325477028653642 0.4133224697710841 -0.3545389180608243
+  translation -0.12828114769423973 0.2443257877001016 -1.2382520122710544e-05
+  rotation 0.018291218493983033 -0.01909274865119656 0.9996503880232066 1.5285638452343155
+  name "Chunky-Munky"
+}
